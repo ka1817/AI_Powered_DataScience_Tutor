@@ -1,0 +1,39 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ignore virtual environments
+venv/
+.env
+*.env
+
+# Ignore dependency folders
+node_modules/
+dist/
+build/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.out
+*.pid
+.DS_Store
+
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.override.yml
+
+# Ignore SSH and private keys (for security)
+id_rsa
+id_rsa.pub
+
+# Ignore .github workflow temporary files
+.github/workflows/.*
