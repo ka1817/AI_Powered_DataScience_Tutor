@@ -3,7 +3,8 @@ import requests
 import uuid  # To generate unique session IDs
 
 # FastAPI backend URL
-FASTAPI_URL = "http://127.0.0.1:8000/ask"
+FASTAPI_URL = "http://ai_tutor_backend:8000/ask"
+
 
 # Streamlit UI
 st.set_page_config(page_title="AI Data Science Tutor", layout="wide")
